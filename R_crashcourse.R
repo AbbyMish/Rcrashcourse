@@ -107,7 +107,7 @@ ggplot(bromeliads, aes(x=location, y=mosquitoes, fill=location))+ #Starting the 
   geom_boxplot()+ #creating the box plot 
   theme_linedraw()+ #specific themes you can choose 
   labs(x="Location", y="Mosquitoes")+ #fixing the labels 
-  scale_fill_viridis(discrete=TRUE, begin=0.3, end=1, option="G") #option is color (a-J) type of graph
+  scale_fill_viridis(discrete=TRUE, begin=0.3, end=1, option="H") #option is color (a-J) type of graph
 # Begin and end must be in 0-1.(color scale)
 
 ############### SUBSECTION HERE####
